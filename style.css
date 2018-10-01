@@ -1,0 +1,127 @@
+@import "https://fonts.googleapis.com/css?family=Comfortaa";
+body {
+  background: #149150;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.Form {
+  border-radius: 33px;
+  position: absolute;
+  width: 450px;
+  height: 350px;
+  top: 50%;
+  left: 50%;
+  margin-top: -175px;
+  margin-left: -225px;
+  background: whitesmoke;
+  box-shadow: 0 0 15px 1px #5b5b5b; }
+
+.Title {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-bottom: 1px solid lightgray;
+  font-family: "Comfortaa";
+  font-size: 20pt;
+  font-weight: bold;
+  color: gray; }
+
+.Input {
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  border-bottom: 1px solid lightgray; }
+
+.Field {
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  width: 75%;
+  height: 40px;
+  margin: 35px 0 0 0;
+  font-family: "Comfortaa";
+  font-size: 11.25pt;
+  padding: 0 10px; }
+
+label {
+  display: inline-block;
+  margin: 35px 0 0 0;
+  font-family: "Comfortaa";
+  font-size: 11.25pt;
+  height: 20px;
+  line-height: 20px; }
+
+input[type='checkbox'] {
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  -webkit-appearance: button;
+  border: none;
+  background: url(http://www.pixelslip.be/img/check.png) no-repeat 0 0 transparent;
+  background-color: #ccc;
+  width: 45px;
+  height: 20px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  position: relative;
+  transition: background-color 1s;
+  outline: none;
+  float: left;
+  margin-right: 10px; }
+  input[type='checkbox']:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 80%;
+    background-color: #fdfdfd;
+    margin: 5%;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    background: white;
+    background: -moz-linear-gradient(top, white 0%, #f3f3f3 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #f3f3f3));
+    background: -webkit-linear-gradient(top, white 0%, #f3f3f3 100%);
+    background: -o-linear-gradient(top, white 0%, #f3f3f3 100%);
+    background: -ms-linear-gradient(top, white 0%, #f3f3f3 100%);
+    background: linear-gradient(to bottom, white 0%, #f3f3f3 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f3f3f3',GradientType=0 );
+    transition: .5s all; }
+  input[type='checkbox']:checked {
+    background-color: #149150; }
+    input[type='checkbox']:checked:after {
+      left: 45%; }
+
+input[type='checkbox'].error {
+  background-color: #c63d3d; }
+
+.Control {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center; }
+
+.Button {
+  box-sizing: border-box;
+  border: 1px solid lightgray;
+  width: 33%;
+  height: 30px;
+  background: whitesmoke;
+  font-family: "Comfortaa";
+  font-size: 11.25pt;
+  font-weight: bold;
+  box-shadow: 0 0 3px 1px lightgray;
+  outline: none; }
+  .Button:hover {
+    background: #eaeaea;
+    transition: all .33s;
+    cursor: pointer; }
+  .Button:active {
+    transition: all .1s;
+    transform: scale(1.075); }
+
+/*# sourceMappingURL=style.css.map */
